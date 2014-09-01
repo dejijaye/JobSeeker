@@ -28,7 +28,7 @@ div {
 #topnav{ 
 	position: absolute;
 	top: 10px;
-	right: 18%px;
+	right: 18%;
 	font-size: 0.7em;
 	font-weight: bold;
 	overflow: inherit;
@@ -151,25 +151,35 @@ img[class="arrow"] {
 	margin: 10px 20px;
 }
 
-/*#footer {
+#footer {
 	color: white;
 	background-color: black;
-}*/
+}
 
-footer a{
+#footer a {
+	font-size: 0.7em;
+	color: white;
+	text-decoration: none;
+}
+
+#footer nav ul li {
+	margin: 30px auto 10px 30px;
+	display: inline-block;
+}
+
+/*footer a{
 	text-decoration: none;
 	list-style: none;
 	background-color: black;
 	color: white;
 }
-
-footer nav ul li {
-	background-color: black;
+*/
+/*footer nav ul li {
 	font-size: smaller;
 	display: inline;
 	float: left;
 	margin: 30px auto 10px 30px;
-}
+}*/
 
 
 /*.button {
