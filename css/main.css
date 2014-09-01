@@ -45,6 +45,19 @@ div {
 	margin-bottom: 30px;
 }
 
+#toptext h1 {
+	font-family: tahoma, sans-serif;
+	font-size: 1.5em;
+}
+
+#toptext h1 {
+	margin-bottom: 10px;
+}
+
+#toptext p {
+	margin-bottom: 5px;
+}
+
 #transparent {
 	padding: 20px;
 	/*height: 40px;*/
@@ -56,6 +69,7 @@ div {
 
 #transparent h1 {
 	color: white;
+	padding: 10px 10px;
 	font-size: 1.5em;
 	font-family: 'Open sans', sans-serif;
 }
@@ -66,44 +80,36 @@ div {
 	color: white;
 }
 
-/*#transparent h1, #transparent p {
-	padding: 10px auto;
-}*/
-
 #how-it-works {
-	height: 200px;
 	background-color: #f7f7f7;
-	padding-top: 20px;
-}
-
-#how-it-works ul li{
-	/*display: block;*/
-	float: left;
-	text-align: center;
-	padding-bottom: 10px;
-	margin: 20px auto 10px;
-}
-
-#how-it-works ul li p{
-	font-size: 0.8em;
-	text-align: center;color: #bbb;
-
 }
 
 #how-it-works h1 {
+	padding-top: 60px;
+	padding-bottom: 40px;
 	text-align: center;
 	color: grey;
-	margin: 20px auto;
-	font-size: 2em;
-	font-weight: lighter;
+	font-size: 1.6em; 
 }
 
-/*#how-it-works li{
+/*#how-it-works li {
 	display: inline-block;
+	margin-left: 50px;
+	margin-bottom: 30px;
+	text-align: center;
+}*/
+
+#how-it-works p {
+	font-size: 0.8em;
+	/*text-align: center;*/
 }
-*/
+
 #how-it-works img {
-	max-width: 40%;
+	max-width: 50%;
+}
+
+.arrow {
+	padding-bottom: 40px;
 }
 
 img[class="arrow"] {
@@ -145,7 +151,7 @@ img[class="arrow"] {
 }
 
 #partners img {
-	width: 10%;
+	width: 15%;
 	border: 1px solid lightgrey;
 	padding: 5px 15px;
 	margin: 10px 20px;
