@@ -7,14 +7,13 @@ div {
 
 .maincontainer {
 	max-width: 70%;
-	min-height: 100%;
 	margin: 5px auto;
 	overflow: hidden;
 }
 
-a {
+#topnav nav ul li a {
 	text-decoration: none;
-	/*color: #000;*/
+	color: #000;
 }
 
 #header {
@@ -29,10 +28,10 @@ a {
 #topnav{ 
 	position: absolute;
 	top: 10px;
-	right: 18%;
+	right: 18%px;
 	font-size: 0.7em;
 	font-weight: bold;
-	overflow: auto;
+	overflow: inherit;
 
 }
 
@@ -152,19 +151,28 @@ img[class="arrow"] {
 	margin: 10px 20px;
 }
 
-footer nav ul{
+/*#footer {
+	color: white;
+	background-color: black;
+}*/
+
+footer a{
+	text-decoration: none;
+	list-style: none;
 	background-color: black;
 	color: white;
-
 }
 
-#footernav li a{
+footer nav ul li {
+	background-color: black;
 	font-size: smaller;
-	color: white;
-	display: inline-block;
+	display: inline;
+	float: left;
+	margin: 30px auto 10px 30px;
 }
 
-.button {
+
+/*.button {
 	background-color: green;
 	border: 1px solid green;
 	border-radius: 1px;
@@ -173,12 +181,18 @@ footer nav ul{
 	padding: 8px 25px;
 	font-family: 'century gothic', sans-serif;
 	font-size: small;
-}
+}*/
 
-#button1 {
-	margin-top: 20px;
-}
+/*#button1 {
+	margin-top: 30px;
+}*/
 
-#button2 {
-	margin-top: 20px;
+button {
+	background-color: green;
+	border: 1px solid green;
+	border-radius: 1px;
+	text-align: center;
+	color: white;
+	padding: 8px 25px;
+	font-family: 'century gothic', sans-serif;
 }
