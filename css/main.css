@@ -92,12 +92,12 @@ div {
 	font-size: 1.6em; 
 }
 
-/*#how-it-works li {
+#how-it-works li {
 	display: inline-block;
 	margin-left: 50px;
 	margin-bottom: 30px;
 	text-align: center;
-}*/
+}
 
 #how-it-works p {
 	font-size: 0.8em;
