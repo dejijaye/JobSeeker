@@ -1,0 +1,53 @@
+@media screen and (max-width: 510px) {
+
+	#topnav li {
+		display: list-item;
+	}
+
+	#toptext h1{
+		padding-top: 60px;
+	}
+}
+
+@media screen and (max-width: 590px) {
+
+	#footer nav ul li {
+		margin-top: 0;
+		display: list-item;
+	}
+}
+
+@media screen and (max-width: 660px) {
+
+	#logo {
+		margin-left: 40%;
+		margin-bottom: 10px;
+	}
+
+	#topnav {
+		top: 50px;
+		left: 35%;
+		margin-top: 10px;
+	}
+
+	#toptext {
+		margin-top: 40px;
+	}
+
+	.arrow {
+		display: none;
+	}
+}
+
+
+
+@media screen and (max-width: 1284px) {
+
+	.arrow {
+		display: none;
+	}
+
+	#how-it-works {
+		margin: 0 auto;
+	}	
+}

@@ -1,0 +1,246 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif; 
+}
+div {
+	/*border: 1px solid grey;*/
+}
+
+.maincontainer {
+	max-width: 70%;
+	margin: 5px auto;
+	overflow: hidden;
+}
+
+#topnav nav ul li a {
+	text-decoration: none;
+	color: #000;
+}
+
+#header {
+	background: url(../img/backgrnd.jpg) no-repeat;	
+	background-size: 100% 100%;
+}
+
+#logo {
+	max-width: 30%;
+}
+
+#topnav{ 
+	position: absolute;
+	top: 10px;
+	right: 18%;
+	font-size: 0.7em;
+	font-weight: 800;
+	overflow: inherit;
+
+}
+
+#topnav li{
+	display: inline-block;
+	margin: 10px;
+}
+
+#toptext {
+	margin-left: 10%;
+	margin-bottom: 30px;
+}
+
+#toptext h1 {
+	font-family: tahoma, sans-serif;
+	font-size: 1.5em;
+}
+
+#toptext h1 {
+	margin-bottom: 10px;
+}
+
+#toptext p {
+	margin-bottom: 5px;
+}
+
+#transparent {
+	padding: 20px;
+	/*height: 40px;*/
+	text-align: center;
+	background-color: black;
+	opacity: 0.6;
+	filter: alpha(opacity=60); /*For IE8 and earlier versions*/
+}
+
+#transparent h1 {
+	color: white;
+	padding: 10px 10px;
+	font-size: 1.5em;
+	font-family: 'Open sans', sans-serif;
+}
+
+#transparent p {
+	font-weight: lighter;
+	font-size: 0.8em;
+	color: white;
+}
+
+#how-it-works {
+	background-color: #f7f7f7;
+	text-align: center;
+}
+
+#how-it-works h1 {
+	padding-top: 60px;
+	padding-bottom: 40px;
+	text-align: center;
+	color: grey;
+	font-size: 1.6em; 
+}
+
+#how-it-works li {
+	display: inline-block;
+	margin-left: 12.5px;
+	margin-right: 12.5px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+#how-it-works p {
+	padding-left: 0;
+	padding-right: 0;
+	font-size: 0.75em;
+	/*text-align: center;*/
+}
+
+#how-it-works a {
+	text-decoration: none;
+	color: grey;
+}
+
+#how-it-works a:hover {
+	text-decoration: underline;
+}
+
+.images p {
+	padding-left: 0;
+}
+
+/*.images:last-child {
+	margin-right: 30px;
+}*/
+
+
+li.images img {
+	margin-bottom: 10px;
+}
+
+#how-it-works img {
+	max-width: 60%;
+}
+
+.arrow {
+	padding-bottom: 60px;
+}
+
+img[class="arrow"] {
+	padding-top: 20px;
+}
+
+#lookingforjob {
+	padding: 20px;
+	background: url(../img/blurry.jpg) no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+}
+
+#lookingforjob h1{
+	margin: 20px auto 20px auto;
+	font-family: tahoma, sans-serif;
+	font-size: 1.5em;
+}
+
+#lookingforjob p {
+	font-size: smaller;
+	margin: 10px;
+}
+
+
+#partners {
+	text-align: center;
+	padding-bottom: 30px;
+	border-bottom: 2px solid green;
+}
+
+#partners h1{
+	/*margin: 5px auto 20px auto;*/
+	font-size: 1.5em;
+	color: grey;
+	padding-top: 15px;
+	margin-bottom: 10px;
+
+}
+
+#partners img {
+	width: 10%;
+	border: 1px solid lightgrey;
+	padding: 5px 15px;
+	margin: 10px 20px;
+}
+
+#footer {
+	color: white;
+	background-color: black;
+}
+
+#footer a {
+	font-size: 0.7em;
+	color: white;
+	text-decoration: none;
+}
+
+#footer nav ul li {
+	margin: 30px auto 10px 30px;
+	display: inline-block;
+}
+
+/*footer a{
+	text-decoration: none;
+	list-style: none;
+	background-color: black;
+	color: white;
+}
+*/
+/*footer nav ul li {
+	font-size: smaller;
+	display: inline;
+	float: left;
+	margin: 30px auto 10px 30px;
+}*/
+
+
+/*.button {
+	background-color: green;
+	border: 1px solid green;
+	border-radius: 1px;
+	text-align: center;
+	color: white;
+	padding: 8px 25px;
+	font-family: 'century gothic', sans-serif;
+	font-size: small;
+}*/
+
+/*#button1 {
+	margin-top: 30px;
+}*/
+
+button {
+	background-color: green;
+	border: 1px solid green;
+	border-radius: 1px;
+	text-align: center;
+	color: white;
+	padding: 8px 25px;
+	font-family: 'century gothic', sans-serif;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+
