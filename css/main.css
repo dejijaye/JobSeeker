@@ -1,9 +1,23 @@
+/********************************
+	GENERAL
+********************************/
+
 body {
 	font-family: 'Source Sans Pro', sans-serif; 
 }
-div {
-	/*border: 1px solid grey;*/
-}
+
+/********************************
+ To view the div layout commented
+ out later
+********************************/
+
+/*div {
+	border: 1px solid grey;
+}*/
+
+/********************************
+	Main Container
+********************************/
 
 .maincontainer {
 	max-width: 80%;
@@ -11,14 +25,18 @@ div {
 	overflow: hidden;
 }
 
-#topnav nav ul li a {
-	text-decoration: none;
-	color: #000;
-}
+/********************************
+Header, logo, nav and top text
+********************************/
 
 #header {
 	background: url(../img/backgrnd.jpg) no-repeat;	
 	background-size: 100% 100%;
+}
+
+#topnav nav ul li a {
+	text-decoration: none;
+	color: #000;
 }
 
 #logo {
@@ -58,9 +76,12 @@ div {
 	margin-bottom: 5px;
 }
 
+/********************************
+	Transparent region
+********************************/
+
 #transparent {
 	padding: 20px;
-	/*height: 40px;*/
 	text-align: center;
 	background-color: black;
 	opacity: 0.6;
@@ -79,6 +100,10 @@ div {
 	font-size: 0.8em;
 	color: white;
 }
+
+/********************************
+	How it works region
+********************************/
 
 #how-it-works {
 	background-color: #f7f7f7;
@@ -121,10 +146,6 @@ div {
 	padding-left: 0;
 }
 
-/*.images:last-child {
-	margin-right: 30px;
-}*/
-
 
 li.images img {
 	margin-bottom: 10px;
@@ -141,6 +162,10 @@ li.images img {
 img[class="arrow"] {
 	padding-top: 20px;
 }
+
+/********************************
+	Looking for job region
+********************************/
 
 #lookingforjob {
 	padding: 20px;
@@ -159,6 +184,10 @@ img[class="arrow"] {
 	font-size: smaller;
 	margin: 10px;
 }
+
+/********************************
+	Partners region
+********************************/
 
 
 #partners {
@@ -188,6 +217,10 @@ img[class="arrow"] {
 	background-color: black;
 }
 
+/********************************
+	Footer region
+********************************/
+
 #footer a {
 	font-size: 0.7em;
 	color: white;
@@ -199,35 +232,9 @@ img[class="arrow"] {
 	display: inline-block;
 }
 
-/*footer a{
-	text-decoration: none;
-	list-style: none;
-	background-color: black;
-	color: white;
-}
-*/
-/*footer nav ul li {
-	font-size: smaller;
-	display: inline;
-	float: left;
-	margin: 30px auto 10px 30px;
-}*/
-
-
-/*.button {
-	background-color: green;
-	border: 1px solid green;
-	border-radius: 1px;
-	text-align: center;
-	color: white;
-	padding: 8px 25px;
-	font-family: 'century gothic', sans-serif;
-	font-size: small;
-}*/
-
-/*#button1 {
-	margin-top: 30px;
-}*/
+/********************************
+	Button styling
+********************************/
 
 button {
 	background-color: green;
