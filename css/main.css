@@ -30,7 +30,7 @@ div {
 	top: 10px;
 	right: 18%;
 	font-size: 0.7em;
-	font-weight: bold;
+	font-weight: 800;
 	overflow: inherit;
 
 }
@@ -82,6 +82,7 @@ div {
 
 #how-it-works {
 	background-color: #f7f7f7;
+	text-align: center;
 }
 
 #how-it-works h1 {
@@ -94,22 +95,47 @@ div {
 
 #how-it-works li {
 	display: inline-block;
-	margin-left: 50px;
-	margin-bottom: 30px;
+	margin-left: 12.5px;
+	margin-right: 12.5px;
+	margin-bottom: 40px;
 	text-align: center;
 }
 
 #how-it-works p {
-	font-size: 0.8em;
+	padding-left: 0;
+	padding-right: 0;
+	font-size: 0.75em;
 	/*text-align: center;*/
 }
 
+#how-it-works a {
+	text-decoration: none;
+	color: grey;
+}
+
+#how-it-works a:hover {
+	text-decoration: underline;
+}
+
+.images p {
+	padding-left: 0;
+}
+
+/*.images:last-child {
+	margin-right: 30px;
+}*/
+
+
+li.images img {
+	margin-bottom: 10px;
+}
+
 #how-it-works img {
-	max-width: 50%;
+	max-width: 60%;
 }
 
 .arrow {
-	padding-bottom: 40px;
+	padding-bottom: 60px;
 }
 
 img[class="arrow"] {
@@ -151,7 +177,7 @@ img[class="arrow"] {
 }
 
 #partners img {
-	width: 15%;
+	width: 10%;
 	border: 1px solid lightgrey;
 	padding: 5px 15px;
 	margin: 10px 20px;
@@ -212,3 +238,9 @@ button {
 	padding: 8px 25px;
 	font-family: 'century gothic', sans-serif;
 }
+
+button:hover {
+	cursor: pointer;
+}
+
+
